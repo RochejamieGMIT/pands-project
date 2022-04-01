@@ -1,5 +1,9 @@
 # pands-project
 
+Got the data set from:
+https://datahub.io/machine-learning/iris#data
+as it is a .csv file
+
 Read me
 
 The Data set for this project is the Fisher's Iris data set. This data set is based around three different species of the Iris flower. The three species are the Iris setosa, Iris virginica and Iris versicolor. The data holds four attributes of the flowers. The four attributes are sepal length, sepal width, petal length and petal width all in cm. Each species has fifty recorded samples in their data set. The data set was popularised by its name’s sake Sir Ronal Aylmer Fisher, a largely celebrated statistician.
