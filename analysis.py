@@ -136,14 +136,14 @@ plt.close()
 
 colours = {'Iris-setosa':'red', 'Iris-versicolor':'yellow', 'Iris-virginica':'blue'}
 fig,
-ids.plot.scatter(x='petallength', y='petalwidth',c=df['class'].map(colours),label = colours )
+ids.plot.scatter(x='petallength', y='petalwidth',c=ids['class'].map(colours),label = colours )
 plt.title('Petal Scatter: Lenght v Width')
-plt.legend(loc="lower left", title="Classes")
+plt.legend(loc="best", title="Classes")
 plt.savefig('scatter Petal.png')
 plt.close()
 
 fig,
-ids.plot.scatter(x='sepallength', y='sepalwidth',c=df['class'].map(colours), label = colours )
+ids.plot.scatter(x='sepallength', y='sepalwidth',c=ids['class'].map(colours), label = colours )
 plt.title('Sepal Scatter: Lenght v Width')
-plt.legend(loc="lower left", title="Classes")
+plt.legend(loc="best", title="Classes")
 plt.savefig('scatter Sepal.png')
