@@ -4,8 +4,6 @@ import pandas_profiling as pp
 import seaborn as sb
 import matplotlib.pyplot as plt
 color = sb.color_palette()
-import plotly.offline as py
-py.init_notebook_mode(connected=True)
 import plotly.graph_objs as go
 import plotly.tools as tls
 import plotly.express as px
@@ -22,14 +20,12 @@ layout = go.Layout(title='Class')
 data = [trace]
 fig = go.Figure(trace,layout)
 fig.update_traces(marker=dict(colors=colors, line=dict(color='#000000', width=2)))
-fig.write_html("pie.html")
 fig.write_image("fig1.png")
 
 def df_to_plotly(ids):
     return {'z': ids.values.tolist(),
             'x': ids.columns.tolist(),
             'y': ids.index.tolist() }
-import plotly.graph_objects as go
 dfNew = ids.corr()
 fig = go.Figure(data=go.Heatmap(df_to_plotly(dfNew)))
 fig.write_image("fig2.png")
@@ -101,11 +97,44 @@ with open('summary.txt', 'a') as f:
 
 f.close()
 
+dist = IrisSetosaGroup['sepallength'].value_counts()
+trace = go.Pie(values=(np.array(dist)),labels=dist.index)
+#layout = go.Layout(title='Each class')
+#data = [trace]
+#fig = go.Figure(trace,layout)
+#fig.update_traces(marker=dict(line=dict(width=2)))
+#fig.show()
+
+#report = pp.ProfileReport(df)
+#report.to_file('profile_report.html') # To preview data had to create a .html file as vs code could not open it
+
+fig, ax = plt.subplots()
+ids.hist(column='sepallength',ax=ax,bins = 5,by = 'class');
+plt.suptitle("Histogram of Sepal lenght by class")
+fig.savefig('sepallengthHist.png')
+
+fig, ax = plt.subplots()
+ids.hist(column='sepalwidth',ax=ax,by = 'class', bins = 5,);
+plt.suptitle("Histogram of sepal width by class")
+fig.savefig('sepalwidthHist.png')
+
+fig, ax = plt.subplots()
+ids.hist(column='petallength',ax=ax, bins = 5,by = 'class');
+plt.suptitle("Histogram of petal length by class")
+fig.savefig('petallengthHist.png')
+
+
+fig, ax = plt.subplots()
+ids.hist(column='petalwidth',ax=ax,bins = 5,by = 'class');
+plt.suptitle("Histogram of petal width by class")
+fig.savefig('petalwidthHist.png')
+
+
 #print(IrisSetosaGroup)
 #print(IrisVersicolorGroup)
 #print(IrisVirginicaGroup)
-print(IrisVirginicaGroup[listofCols].head(2))
-
+#print(IrisVirginicaGroup[listofCols].head(2))
+#
 #ids.head()
 #print(ids.shape)
 #report = pp.ProfileReport(ids)
@@ -120,7 +149,7 @@ print(IrisVirginicaGroup[listofCols].head(2))
 #  
 #print(up_dt)
 #sb.scatterplot(x='petallength', y='petalwidth',
-#               hue='class', data=data, )
+#              hue='class', data=data, )
 #
 #
 #plt.legend()
