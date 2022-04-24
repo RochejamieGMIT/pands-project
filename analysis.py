@@ -61,14 +61,46 @@ IrisVersicolorGroup = ids[ids["class"].isin(['Iris-versicolor'])]
 IrisVirginicaGroup = ids[ids["class"].isin(['Iris-virginica'])]
 
 
-print(IrisVirginicaGroup.agg(
+SumIS = IrisSetosaGroup.agg(
     {
         "sepallength" : ["min", "max", "median","mean"],
         "sepalwidth" : ["min", "max", "median","mean"],
         "petallength" : ["min", "max", "median","mean"],
         "petalwidth" : ["min", "max", "median","mean"]
     }
-))
+)
+
+
+SumIVC= IrisVersicolorGroup.agg(
+    {
+        "sepallength" : ["min", "max", "median","mean"],
+        "sepalwidth" : ["min", "max", "median","mean"],
+        "petallength" : ["min", "max", "median","mean"],
+        "petalwidth" : ["min", "max", "median","mean"]
+    }
+)
+SumIV = IrisVirginicaGroup.agg(
+    {
+        "sepallength" : ["min", "max", "median","mean"],
+        "sepalwidth" : ["min", "max", "median","mean"],
+        "petallength" : ["min", "max", "median","mean"],
+        "petalwidth" : ["min", "max", "median","mean"]
+    }
+)
+
+with open('summary.txt', 'a') as f:
+    f.write("The summary for the Iris-setosa Species is as follows: \n")
+    dfAsString = SumIS.to_string(header=True, index=True)
+    f.write(dfAsString)
+    f.write("\nThe summary for the Iris-versicolor Species is as follows: \n")
+    dfAsString = SumIVC.to_string(header=True, index=True)
+    f.write(dfAsString)
+    f.write("\nThe summary for the Iris-virginica Species is as follows: \n")
+    dfAsString = SumIV.to_string(header=True, index=True)
+    f.write(dfAsString)
+
+f.close()
+
 #print(IrisSetosaGroup)
 #print(IrisVersicolorGroup)
 #print(IrisVirginicaGroup)

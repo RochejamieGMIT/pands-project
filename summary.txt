@@ -1,150 +1,18 @@
-The lenght of the Sepal 5.1 and the Width of the sepal is 3.5 and is in the class Iris-setosa 
-The lenght of the Sepal 4.9 and the Width of the sepal is 3.0 and is in the class Iris-setosa 
-The lenght of the Sepal 4.7 and the Width of the sepal is 3.2 and is in the class Iris-setosa 
-The lenght of the Sepal 4.6 and the Width of the sepal is 3.1 and is in the class Iris-setosa 
-The lenght of the Sepal 5.0 and the Width of the sepal is 3.6 and is in the class Iris-setosa 
-The lenght of the Sepal 5.4 and the Width of the sepal is 3.9 and is in the class Iris-setosa 
-The lenght of the Sepal 4.6 and the Width of the sepal is 3.4 and is in the class Iris-setosa 
-The lenght of the Sepal 5.0 and the Width of the sepal is 3.4 and is in the class Iris-setosa 
-The lenght of the Sepal 4.4 and the Width of the sepal is 2.9 and is in the class Iris-setosa 
-The lenght of the Sepal 4.9 and the Width of the sepal is 3.1 and is in the class Iris-setosa 
-The lenght of the Sepal 5.4 and the Width of the sepal is 3.7 and is in the class Iris-setosa 
-The lenght of the Sepal 4.8 and the Width of the sepal is 3.4 and is in the class Iris-setosa 
-The lenght of the Sepal 4.8 and the Width of the sepal is 3.0 and is in the class Iris-setosa 
-The lenght of the Sepal 4.3 and the Width of the sepal is 3.0 and is in the class Iris-setosa 
-The lenght of the Sepal 5.8 and the Width of the sepal is 4.0 and is in the class Iris-setosa 
-The lenght of the Sepal 5.7 and the Width of the sepal is 4.4 and is in the class Iris-setosa 
-The lenght of the Sepal 5.4 and the Width of the sepal is 3.9 and is in the class Iris-setosa 
-The lenght of the Sepal 5.1 and the Width of the sepal is 3.5 and is in the class Iris-setosa 
-The lenght of the Sepal 5.7 and the Width of the sepal is 3.8 and is in the class Iris-setosa 
-The lenght of the Sepal 5.1 and the Width of the sepal is 3.8 and is in the class Iris-setosa 
-The lenght of the Sepal 5.4 and the Width of the sepal is 3.4 and is in the class Iris-setosa 
-The lenght of the Sepal 5.1 and the Width of the sepal is 3.7 and is in the class Iris-setosa 
-The lenght of the Sepal 4.6 and the Width of the sepal is 3.6 and is in the class Iris-setosa 
-The lenght of the Sepal 5.1 and the Width of the sepal is 3.3 and is in the class Iris-setosa 
-The lenght of the Sepal 4.8 and the Width of the sepal is 3.4 and is in the class Iris-setosa 
-The lenght of the Sepal 5.0 and the Width of the sepal is 3.0 and is in the class Iris-setosa 
-The lenght of the Sepal 5.0 and the Width of the sepal is 3.4 and is in the class Iris-setosa 
-The lenght of the Sepal 5.2 and the Width of the sepal is 3.5 and is in the class Iris-setosa 
-The lenght of the Sepal 5.2 and the Width of the sepal is 3.4 and is in the class Iris-setosa 
-The lenght of the Sepal 4.7 and the Width of the sepal is 3.2 and is in the class Iris-setosa 
-The lenght of the Sepal 4.8 and the Width of the sepal is 3.1 and is in the class Iris-setosa 
-The lenght of the Sepal 5.4 and the Width of the sepal is 3.4 and is in the class Iris-setosa 
-The lenght of the Sepal 5.2 and the Width of the sepal is 4.1 and is in the class Iris-setosa 
-The lenght of the Sepal 5.5 and the Width of the sepal is 4.2 and is in the class Iris-setosa 
-The lenght of the Sepal 4.9 and the Width of the sepal is 3.1 and is in the class Iris-setosa 
-The lenght of the Sepal 5.0 and the Width of the sepal is 3.2 and is in the class Iris-setosa 
-The lenght of the Sepal 5.5 and the Width of the sepal is 3.5 and is in the class Iris-setosa 
-The lenght of the Sepal 4.9 and the Width of the sepal is 3.1 and is in the class Iris-setosa 
-The lenght of the Sepal 4.4 and the Width of the sepal is 3.0 and is in the class Iris-setosa 
-The lenght of the Sepal 5.1 and the Width of the sepal is 3.4 and is in the class Iris-setosa 
-The lenght of the Sepal 5.0 and the Width of the sepal is 3.5 and is in the class Iris-setosa 
-The lenght of the Sepal 4.5 and the Width of the sepal is 2.3 and is in the class Iris-setosa 
-The lenght of the Sepal 4.4 and the Width of the sepal is 3.2 and is in the class Iris-setosa 
-The lenght of the Sepal 5.0 and the Width of the sepal is 3.5 and is in the class Iris-setosa 
-The lenght of the Sepal 5.1 and the Width of the sepal is 3.8 and is in the class Iris-setosa 
-The lenght of the Sepal 4.8 and the Width of the sepal is 3.0 and is in the class Iris-setosa 
-The lenght of the Sepal 5.1 and the Width of the sepal is 3.8 and is in the class Iris-setosa 
-The lenght of the Sepal 4.6 and the Width of the sepal is 3.2 and is in the class Iris-setosa 
-The lenght of the Sepal 5.3 and the Width of the sepal is 3.7 and is in the class Iris-setosa 
-The lenght of the Sepal 5.0 and the Width of the sepal is 3.3 and is in the class Iris-setosa 
-The lenght of the Sepal 7.0 and the Width of the sepal is 3.2 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.4 and the Width of the sepal is 3.2 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.9 and the Width of the sepal is 3.1 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.5 and the Width of the sepal is 2.3 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.5 and the Width of the sepal is 2.8 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.7 and the Width of the sepal is 2.8 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.3 and the Width of the sepal is 3.3 and is in the class Iris-versicolor 
-The lenght of the Sepal 4.9 and the Width of the sepal is 2.4 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.6 and the Width of the sepal is 2.9 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.2 and the Width of the sepal is 2.7 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.0 and the Width of the sepal is 2.0 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.9 and the Width of the sepal is 3.0 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.0 and the Width of the sepal is 2.2 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.1 and the Width of the sepal is 2.9 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.6 and the Width of the sepal is 2.9 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.7 and the Width of the sepal is 3.1 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.6 and the Width of the sepal is 3.0 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.8 and the Width of the sepal is 2.7 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.2 and the Width of the sepal is 2.2 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.6 and the Width of the sepal is 2.5 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.9 and the Width of the sepal is 3.2 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.1 and the Width of the sepal is 2.8 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.3 and the Width of the sepal is 2.5 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.1 and the Width of the sepal is 2.8 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.4 and the Width of the sepal is 2.9 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.6 and the Width of the sepal is 3.0 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.8 and the Width of the sepal is 2.8 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.7 and the Width of the sepal is 3.0 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.0 and the Width of the sepal is 2.9 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.7 and the Width of the sepal is 2.6 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.5 and the Width of the sepal is 2.4 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.5 and the Width of the sepal is 2.4 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.8 and the Width of the sepal is 2.7 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.0 and the Width of the sepal is 2.7 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.4 and the Width of the sepal is 3.0 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.0 and the Width of the sepal is 3.4 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.7 and the Width of the sepal is 3.1 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.3 and the Width of the sepal is 2.3 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.6 and the Width of the sepal is 3.0 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.5 and the Width of the sepal is 2.5 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.5 and the Width of the sepal is 2.6 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.1 and the Width of the sepal is 3.0 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.8 and the Width of the sepal is 2.6 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.0 and the Width of the sepal is 2.3 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.6 and the Width of the sepal is 2.7 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.7 and the Width of the sepal is 3.0 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.7 and the Width of the sepal is 2.9 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.2 and the Width of the sepal is 2.9 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.1 and the Width of the sepal is 2.5 and is in the class Iris-versicolor 
-The lenght of the Sepal 5.7 and the Width of the sepal is 2.8 and is in the class Iris-versicolor 
-The lenght of the Sepal 6.3 and the Width of the sepal is 3.3 and is in the class Iris-virginica 
-The lenght of the Sepal 5.8 and the Width of the sepal is 2.7 and is in the class Iris-virginica 
-The lenght of the Sepal 7.1 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 6.3 and the Width of the sepal is 2.9 and is in the class Iris-virginica 
-The lenght of the Sepal 6.5 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 7.6 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 4.9 and the Width of the sepal is 2.5 and is in the class Iris-virginica 
-The lenght of the Sepal 7.3 and the Width of the sepal is 2.9 and is in the class Iris-virginica 
-The lenght of the Sepal 6.7 and the Width of the sepal is 2.5 and is in the class Iris-virginica 
-The lenght of the Sepal 7.2 and the Width of the sepal is 3.6 and is in the class Iris-virginica 
-The lenght of the Sepal 6.5 and the Width of the sepal is 3.2 and is in the class Iris-virginica 
-The lenght of the Sepal 6.4 and the Width of the sepal is 2.7 and is in the class Iris-virginica 
-The lenght of the Sepal 6.8 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 5.7 and the Width of the sepal is 2.5 and is in the class Iris-virginica 
-The lenght of the Sepal 5.8 and the Width of the sepal is 2.8 and is in the class Iris-virginica 
-The lenght of the Sepal 6.4 and the Width of the sepal is 3.2 and is in the class Iris-virginica 
-The lenght of the Sepal 6.5 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 7.7 and the Width of the sepal is 3.8 and is in the class Iris-virginica 
-The lenght of the Sepal 7.7 and the Width of the sepal is 2.6 and is in the class Iris-virginica 
-The lenght of the Sepal 6.0 and the Width of the sepal is 2.2 and is in the class Iris-virginica 
-The lenght of the Sepal 6.9 and the Width of the sepal is 3.2 and is in the class Iris-virginica 
-The lenght of the Sepal 5.6 and the Width of the sepal is 2.8 and is in the class Iris-virginica 
-The lenght of the Sepal 7.7 and the Width of the sepal is 2.8 and is in the class Iris-virginica 
-The lenght of the Sepal 6.3 and the Width of the sepal is 2.7 and is in the class Iris-virginica 
-The lenght of the Sepal 6.7 and the Width of the sepal is 3.3 and is in the class Iris-virginica 
-The lenght of the Sepal 7.2 and the Width of the sepal is 3.2 and is in the class Iris-virginica 
-The lenght of the Sepal 6.2 and the Width of the sepal is 2.8 and is in the class Iris-virginica 
-The lenght of the Sepal 6.1 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 6.4 and the Width of the sepal is 2.8 and is in the class Iris-virginica 
-The lenght of the Sepal 7.2 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 7.4 and the Width of the sepal is 2.8 and is in the class Iris-virginica 
-The lenght of the Sepal 7.9 and the Width of the sepal is 3.8 and is in the class Iris-virginica 
-The lenght of the Sepal 6.4 and the Width of the sepal is 2.8 and is in the class Iris-virginica 
-The lenght of the Sepal 6.3 and the Width of the sepal is 2.8 and is in the class Iris-virginica 
-The lenght of the Sepal 6.1 and the Width of the sepal is 2.6 and is in the class Iris-virginica 
-The lenght of the Sepal 7.7 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 6.3 and the Width of the sepal is 3.4 and is in the class Iris-virginica 
-The lenght of the Sepal 6.4 and the Width of the sepal is 3.1 and is in the class Iris-virginica 
-The lenght of the Sepal 6.0 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 6.9 and the Width of the sepal is 3.1 and is in the class Iris-virginica 
-The lenght of the Sepal 6.7 and the Width of the sepal is 3.1 and is in the class Iris-virginica 
-The lenght of the Sepal 6.9 and the Width of the sepal is 3.1 and is in the class Iris-virginica 
-The lenght of the Sepal 5.8 and the Width of the sepal is 2.7 and is in the class Iris-virginica 
-The lenght of the Sepal 6.8 and the Width of the sepal is 3.2 and is in the class Iris-virginica 
-The lenght of the Sepal 6.7 and the Width of the sepal is 3.3 and is in the class Iris-virginica 
-The lenght of the Sepal 6.7 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 6.3 and the Width of the sepal is 2.5 and is in the class Iris-virginica 
-The lenght of the Sepal 6.5 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
-The lenght of the Sepal 6.2 and the Width of the sepal is 3.4 and is in the class Iris-virginica 
-The lenght of the Sepal 5.9 and the Width of the sepal is 3.0 and is in the class Iris-virginica 
+The summary for the Iris-setosa Species is as follows: 
+        sepallength  sepalwidth  petallength  petalwidth
+min           4.300       2.300        1.000       0.100
+max           5.800       4.400        1.900       0.600
+median        5.000       3.400        1.500       0.200
+mean          5.006       3.418        1.464       0.244
+The summary for the Iris-versicolor Species is as follows: 
+        sepallength  sepalwidth  petallength  petalwidth
+min           4.900        2.00         3.00       1.000
+max           7.000        3.40         5.10       1.800
+median        5.900        2.80         4.35       1.300
+mean          5.936        2.77         4.26       1.326
+The summary for the Iris-virginica Species is as follows: 
+        sepallength  sepalwidth  petallength  petalwidth
+min           4.900       2.200        4.500       1.400
+max           7.900       3.800        6.900       2.500
+median        6.500       3.000        5.550       2.000
+mean          6.588       2.974        5.552       2.026
