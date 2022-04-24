@@ -46,6 +46,34 @@ fig.update_traces(marker_color="midnightblue",marker_line_color='rgb(8,48,107)',
 fig.update_layout(title_text='class and sepallength')
 fig.write_image("fig4.png")
 
+
+
+
+filename = "iris_csv.csv"
+
+
+listofCols = ['sepallength', 'sepalwidth']
+print(ids[listofCols].head(2))
+
+
+IrisSetosaGroup = ids[ids["class"].isin(['Iris-setosa'])] # seperating each species to their own group
+IrisVersicolorGroup = ids[ids["class"].isin(['Iris-versicolor'])]
+IrisVirginicaGroup = ids[ids["class"].isin(['Iris-virginica'])]
+
+
+print(IrisVirginicaGroup.agg(
+    {
+        "sepallength" : ["min", "max", "median","mean"],
+        "sepalwidth" : ["min", "max", "median","mean"],
+        "petallength" : ["min", "max", "median","mean"],
+        "petalwidth" : ["min", "max", "median","mean"]
+    }
+))
+#print(IrisSetosaGroup)
+#print(IrisVersicolorGroup)
+#print(IrisVirginicaGroup)
+print(IrisVirginicaGroup[listofCols].head(2))
+
 #ids.head()
 #print(ids.shape)
 #report = pp.ProfileReport(ids)
