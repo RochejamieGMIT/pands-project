@@ -112,55 +112,38 @@ fig, ax = plt.subplots()
 ids.hist(column='sepallength',ax=ax,bins = 5,by = 'class');
 plt.suptitle("Histogram of Sepal lenght by class")
 fig.savefig('sepallengthHist.png')
+plt.close()
 
 fig, ax = plt.subplots()
 ids.hist(column='sepalwidth',ax=ax,by = 'class', bins = 5,);
 plt.suptitle("Histogram of sepal width by class")
 fig.savefig('sepalwidthHist.png')
+plt.close()
 
 fig, ax = plt.subplots()
 ids.hist(column='petallength',ax=ax, bins = 5,by = 'class');
 plt.suptitle("Histogram of petal length by class")
 fig.savefig('petallengthHist.png')
+plt.close()
 
 
 fig, ax = plt.subplots()
 ids.hist(column='petalwidth',ax=ax,bins = 5,by = 'class');
 plt.suptitle("Histogram of petal width by class")
 fig.savefig('petalwidthHist.png')
+plt.close()
 
 
-#print(IrisSetosaGroup)
-#print(IrisVersicolorGroup)
-#print(IrisVirginicaGroup)
-#print(IrisVirginicaGroup[listofCols].head(2))
-#
-#ids.head()
-#print(ids.shape)
-#report = pp.ProfileReport(ids)
+colours = {'Iris-setosa':'red', 'Iris-versicolor':'yellow', 'Iris-virginica':'blue'}
+fig,
+ids.plot.scatter(x='petallength', y='petalwidth',c=df['class'].map(colours),label = colours )
+plt.title('Petal Scatter: Lenght v Width')
+plt.legend(loc="lower left", title="Classes")
+plt.savefig('scatter Petal.png')
+plt.close()
 
-#report.to_file('profile_report.html') # To preview data had to create a .html file as vs code could not open it
-#data.info()
-#print(data.describe())
-#data.isnull().sum()
-#
-#up_dt = {}
-#
-#  
-#print(up_dt)
-#sb.scatterplot(x='petallength', y='petalwidth',
-#              hue='class', data=data, )
-#
-#
-#plt.legend()
-#plt.savefig('testMultiSave.png')
-#
-# 
-#sb.scatterplot(x='sepalwidth', y='sepallength',
-#                hue='class', data=data, )
-#plt.legend()
-#plt.savefig('testMultiSave2.png')
-#
-#
-#plt.show()
-#
+fig,
+ids.plot.scatter(x='sepallength', y='sepalwidth',c=df['class'].map(colours), label = colours )
+plt.title('Sepal Scatter: Lenght v Width')
+plt.legend(loc="lower left", title="Classes")
+plt.savefig('scatter Sepal.png')
