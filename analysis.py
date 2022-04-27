@@ -6,18 +6,14 @@
 #
 #
 
-import io
-from contextlib import redirect_stdout
-
 import pandas as pd
 import pandas_profiling as pp
 import matplotlib.pyplot as plt
-
 import plotly.graph_objs as go
 import plotly.tools as tls
 import plotly.express as px
 import numpy as np
-from flask import Markup
+
 
 
 # reading csv files
@@ -27,32 +23,32 @@ trace = go.Pie(values=(np.array(dist)),labels=dist.index)
 layout = go.Layout(title='Class')
 data = [trace]
 fig = go.Figure(trace,layout)
-fig.write_image("fig1.png")
+fig.write_image("Pie_ValueCountCheck.png") # Generating a pie chart to confirm an equal amount of values for each class
 
 def df_to_plotly(ids):
     return {'z': ids.values.tolist(),
             'x': ids.columns.tolist(),
             'y': ids.index.tolist() }
-dfNew = ids.corr()
-fig = go.Figure(data=go.Heatmap(df_to_plotly(dfNew)))
-fig.write_image("fig2.png")
+dfNew = ids.corr() # Compute pairwise correlation with another DataFrame or Series.
+fig = go.Figure(data=go.Heatmap(df_to_plotly(dfNew))) #Creates a heatmap of the data to check for correlations 
+fig.write_image("Heatmap.png") # not very useful in this instance as it does not differentiate between classes
 
-fig = px.scatter(ids, x='petallength', y='class')
+fig = px.scatter(ids, x='petallength', y='class') # create a scatter plot of each petal lenght in their class
 fig.update_traces()
 fig.update_layout(title_text='petallength and class')
-fig.write_image("Dot1_PetalLenghtDotGraph.png")
+fig.write_image("Dot1_PetalLenghtDotGraph.png") # I found this interesting as putting each class side by side you can see where they over lap
 
-fig = px.scatter(ids, x='sepallength', y='class')
+fig = px.scatter(ids, x='sepallength', y='class') # create a scatter plot of each sepallength in their class
 fig.update_traces
 fig.update_layout(title_text='sepallength and class')
 fig.write_image("Dot2_sepallengthDotGraph.png")
 
-fig = px.scatter(ids, x='sepalwidth', y='class')
+fig = px.scatter(ids, x='sepalwidth', y='class') # create a scatter plot of each sepalwidth in their class
 fig.update_traces
 fig.update_layout(title_text='sepalwidth and class')
 fig.write_image("Dot3_sepalwidthDotGraph.png")
 
-fig = px.scatter(ids, x='petalwidth', y='class')
+fig = px.scatter(ids, x='petalwidth', y='class') # create a scatter plot of each petalwidth in their class
 fig.update_traces
 fig.update_layout(title_text='petalwidth and class')
 fig.write_image("Dot4_petalwidthDotGraph.png")
