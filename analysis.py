@@ -1,9 +1,18 @@
+# This is a project to Analyse the fisher's iris data set. 
+# I have a lot of code references to include with this project, 
+#But one I used a lot through out the project is this
+#https://towardsdatascience.com/a-beginners-guide-to-data-analysis-in-python-188706df5447
+# There's a lot of other references thta will also be included through out. 
+#
+#
+
+import io
+from contextlib import redirect_stdout
+
 import pandas as pd
 import pandas_profiling as pp
-
-import seaborn as sb
 import matplotlib.pyplot as plt
-color = sb.color_palette()
+
 import plotly.graph_objs as go
 import plotly.tools as tls
 import plotly.express as px
@@ -14,12 +23,10 @@ from flask import Markup
 # reading csv files
 ids =  pd.read_csv('iris_csv.csv')
 dist = ids['class'].value_counts()
-colors = ['mediumturquoise', 'darkorange','red']
 trace = go.Pie(values=(np.array(dist)),labels=dist.index)
 layout = go.Layout(title='Class')
 data = [trace]
 fig = go.Figure(trace,layout)
-fig.update_traces(marker=dict(colors=colors, line=dict(color='#000000', width=2)))
 fig.write_image("fig1.png")
 
 def df_to_plotly(ids):
@@ -31,16 +38,48 @@ fig = go.Figure(data=go.Heatmap(df_to_plotly(dfNew)))
 fig.write_image("fig2.png")
 
 fig = px.scatter(ids, x='petallength', y='class')
-fig.update_traces(marker_color="turquoise",marker_line_color='rgb(8,48,107)',
-                  marker_line_width=1.5)
+fig.update_traces()
 fig.update_layout(title_text='petallength and class')
-fig.write_image("fig3.png")
+fig.write_image("Dot1_PetalLenghtDotGraph.png")
+
+fig = px.scatter(ids, x='sepallength', y='class')
+fig.update_traces
+fig.update_layout(title_text='sepallength and class')
+fig.write_image("Dot2_sepallengthDotGraph.png")
+
+fig = px.scatter(ids, x='sepalwidth', y='class')
+fig.update_traces
+fig.update_layout(title_text='sepalwidth and class')
+fig.write_image("Dot3_sepalwidthDotGraph.png")
+
+fig = px.scatter(ids, x='petalwidth', y='class')
+fig.update_traces
+fig.update_layout(title_text='petalwidth and class')
+fig.write_image("Dot4_petalwidthDotGraph.png")
+
+
+
+
+fig = px.box(ids, x='class', y='petallength')
+fig.update_traces
+fig.update_layout(title_text='class and petallength')
+fig.write_image("Box1_petallength.png")
 
 fig = px.box(ids, x='class', y='sepallength')
-fig.update_traces(marker_color="midnightblue",marker_line_color='rgb(8,48,107)',
-                  marker_line_width=1.5)
+fig.update_traces
 fig.update_layout(title_text='class and sepallength')
-fig.write_image("fig4.png")
+fig.write_image("Box2_sepallength.png")
+
+fig = px.box(ids, x='class', y='sepalwidth')
+fig.update_traces
+fig.update_layout(title_text='class and sepalwidth')
+fig.write_image("Box3_sepalwidth.png")
+
+fig = px.box(ids, x='class', y='petalwidth')
+fig.update_traces
+fig.update_layout(title_text='class and petalwidth')
+fig.write_image("Box4_petalwidth.png")
+
 
 
 
@@ -84,8 +123,14 @@ SumIV = IrisVirginicaGroup.agg(
     }
 )
 
+
+
+
+
 with open('summary.txt', 'a') as f:
-    f.write("The summary for the Iris-setosa Species is as follows: \n")
+    f.write("\nThis is a summary of the information on the Fisher's Iris data set \n Overall data seet information:\n")
+    ids.info(buf=f)#Writing the sys.stdout to file https://stackoverflow.com/questions/35436331/how-to-save-output-from-dataframe-info-to-file-a-excel-or-text-file
+    f.write("\nThe summary for the Iris-setosa Species is as follows: \n")
     dfAsString = SumIS.to_string(header=True, index=True)
     f.write(dfAsString)
     f.write("\nThe summary for the Iris-versicolor Species is as follows: \n")
@@ -97,15 +142,8 @@ with open('summary.txt', 'a') as f:
 
 f.close()
 
-dist = IrisSetosaGroup['sepallength'].value_counts()
-trace = go.Pie(values=(np.array(dist)),labels=dist.index)
-#layout = go.Layout(title='Each class')
-#data = [trace]
-#fig = go.Figure(trace,layout)
-#fig.update_traces(marker=dict(line=dict(width=2)))
-#fig.show()
 
-#report = pp.ProfileReport(df)
+#report = pp.ProfileReport(ids)
 #report.to_file('profile_report.html') # To preview data had to create a .html file as vs code could not open it
 
 fig, ax = plt.subplots()
@@ -145,5 +183,7 @@ plt.close()
 fig,
 ids.plot.scatter(x='sepallength', y='sepalwidth',c=ids['class'].map(colours), label = colours )
 plt.title('Sepal Scatter: Lenght v Width')
-plt.legend(loc="best", title="Classes")
+plt.legend( loc="best", title="Classes")
 plt.savefig('scatter Sepal.png')
+
+
